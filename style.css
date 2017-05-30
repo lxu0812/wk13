@@ -1,0 +1,263 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	margin:auto;
+}
+header{
+	overflow: auto;
+  background-image: url("img/main.jpeg");
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.container{
+box-sizing: border-box;
+max-width: 1260px;
+margin: 0px auto;
+}
+.pic_main{
+  width: 100%;
+  height:550px;
+  position: absolute;
+  z-index: -1;
+}
+.nav{
+  margin-top: 20px;
+  float: right;
+  text-align: left;
+  margin-right: 20px;
+}
+.nav li{
+  font-size: 25px;
+  font-family:Arial Black;
+  color: black;
+  display: inline-block;
+  margin-left: 20px;
+}
+.nav a{
+  text-decoration:none;
+  color: black;
+  transition: 1s;
+}
+.nav a:hover{
+  color : rgba(26, 26, 26, .10);
+}
+.title{
+  display: none;
+}
+.c{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 70px;
+  overflow: auto;
+}
+.circle{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  transition: all .5s;
+}
+.circle:hover{
+  width: 60%;
+}
+.c33 a:hover{
+  background-color: black;
+  color: white;
+}
+.c33{
+  margin-top: 70px;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  transition: all .5s;
+}
+.c33 a{
+  margin-top: 20px;
+  display: block;
+  text-decoration:none;
+  color: black;
+  font-size: 25px;
+}
+.center{
+  width:100%;
+  display: inline-block;
+  overflow: auto;
+}
+.a_1{
+  max-width: 420px;
+  height: 300px;
+  display: inline-block;
+  margin-left:140px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: auto;
+}
+.article_1{
+  float: right;
+  max-width: 420px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 140px;
+  font-size: 30px;
+  overflow: auto;
+}
+.a_2{
+  max-width: 420px;
+  height: 300px;
+  display: inline-block;
+  float: right;
+  margin-right:140px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: auto;
+}
+.article_2{
+  max-width: 420px;
+  margin-top: 70px;
+  margin-left: 140px;
+  font-size: 30px;
+  float: left;
+  overflow: auto;
+}
+footer{
+    overflow:auto;
+    clear: both;
+    background-color: black;
+    text-align:center;
+
+}
+footer p{
+  margin-top: 10px;
+  font-size: 10px;
+  display: inline-block;
+  color: white;
+  line-height:30px;
+}
+.i{
+    Xfloat: right;
+    Xdisplay: inline-block;
+}
+.icon_pic{
+  Xmargin-top: 10PX;
+  Xmargin-left: 30px;
+}
+@media only screen and (max-width: 1280px) {
+  .container{
+  box-sizing: border-box;
+  max-width: 1260px;
+  margin: 0px auto;
+  }
+  .a_1,.a_2,.article_1,.article_2{
+    max-width: 420px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav{
+    margin: 0px auto;
+    margin-top: 20px;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .nav li{
+    font-size: 25px;
+    font-family:Arial Black;
+    color: black;
+    display: inline-block;
+    margin-left: 20px;
+
+  }
+  .nav li a{
+    text-align: center;
+  }
+  .container{
+    box-sizing: border-box;
+    max-width: 768px;
+    margin: 0px auto;
+  }
+  .a_1,.a_2,.article_1,.article_2{
+    max-width: 330px;
+    margin: 0px auto;
+  }
+
+}
+@media only screen and (max-width: 320px) {
+
+  .nav:active .group {
+    display:block;
+  }
+  .title{
+    display: block;
+    width: 6em;
+    height: 24px;
+  }
+  .group{
+    display: none;
+    position: absolute;
+    padding-top: 24px;
+    background-color: black;
+  }
+  .group:hover{
+    display:block;
+    border-color: white;
+  }
+  .group a{
+    display: inline-block;
+    color: white;
+  }
+  .nav li{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .c33{
+    margin-top: 70px;
+    width: 100%;
+    Xfloat: left;
+    text-align: center;
+    transition: all .5s;
+    display: inline-block;
+  }
+  .c33 a{
+    margin-top: 20px;
+    display: block;
+    text-decoration:none;
+    color: black;
+    font-size: 25px;
+  }
+  .a_1{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    margin-top: 30px;
+    overflow: auto;
+  }
+  .article_1{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 30px;
+    overflow: auto;
+  }
+  .a_2{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    margin-top: 30px;
+    overflow: auto;
+  }
+  .article_2{
+    width: 100%;
+    margin-top: 70px;
+    font-size: 30px;
+    overflow: auto;
+  }
+}
+
+*{
+  Xborder: 1px solid black;
+
+}
